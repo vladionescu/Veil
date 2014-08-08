@@ -7,3 +7,6 @@
 [submodule "Veil-PowerView"]
 	path = Veil-PowerView
 	url = https://github.com/Veil-Framework/Veil-PowerView.git
+[submodule "Veil-Pillage"]
+	path = Veil-Pillage
+	url = https://github.com/Veil-Framework/Veil-Pillage.git
