@@ -43,4 +43,4 @@ veilpwd=`pwd -P`
 cd ${veilpwd}/Veil-Evasion/setup/ && ./setup.sh
 
 # Run Veil-Pillage Setup Script
-cd ${veilpwd}/Veil-Pillage/ && ./setup.sh
+cd ${veilpwd}/Veil-Pillage/ && ./update.py
