@@ -42,5 +42,5 @@ veilpwd=`pwd -P`
 # Run Veil-Evasion Setup Script
 cd ${veilpwd}/Veil-Evasion/setup/ && ./setup.sh
 
-# Run Veil-Catapult Setup Script
-cd ${veilpwd}/Veil-Catapult/ && ./setup.sh
+# Run Veil-Pillage Setup Script
+cd ${veilpwd}/Veil-Pillage/ && ./setup.sh
