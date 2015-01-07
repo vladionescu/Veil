@@ -38,11 +38,13 @@ ${gitcmd} pull && ${gitcmd} submodule update --init --recursive
 ${gitcmd} submodule update --remote
 
 # Run Veil-Evasion Setup Script
-cd ${veilpwd}/Veil-Evasion/setup/ && ./setup.sh
+cd ${veilpwd}Veil-Evasion/setup/ && ./setup.sh
+cd ..
 
 # Run Veil-Pillage Setup Script
-cd ${veilpwd}/Veil-Pillage/ && ./update.py
+cd Veil-Pillage/ && ./update.py
+cd ..
 
 # Run Veil-Catapult Setup Script
-cd ${veilpwd}/Veil-Catapult/ && ./setup.py
-cd ${veilpwd}/Veil-Catapult/config/ && ./update.py
+cd Veil-Catapult/ && ./setup.py
+cd config/ && ./update.py
