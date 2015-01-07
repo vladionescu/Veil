@@ -33,26 +33,16 @@ func_title
 # Change To Script Directory
 cd ${veildir}
 
+# Pull Latest Release Of Submodules
+${gitcmd} pull && ${gitcmd} submodule update --init --recursive
+${gitcmd} submodule update --remote
+
 # Run Veil-Evasion Setup Script
-cd ${veilpwd}/Veil-Evasion/
-git pull
 cd ${veilpwd}/Veil-Evasion/setup/ && ./setup.sh
 
 # Run Veil-Pillage Setup Script
-cd ${veilpwd}/Veil-Pillage/
-git pull
 cd ${veilpwd}/Veil-Pillage/ && ./update.py
 
 # Run Veil-Catapult Setup Script
-cd ${veilpwd}/Veil-Catapult/
-git pull
 cd ${veilpwd}/Veil-Catapult/ && ./setup.py
 cd ${veilpwd}/Veil-Catapult/config/ && ./update.py
-
-# Run Veil-PowerView Updates
-cd ${veilpwd}/PowerTools/
-git pull
-
-# Run Veil-Ordnance updates
-cd ${veilpwd}/Veil-Ordnance/
-git pull
