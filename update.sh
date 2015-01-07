@@ -39,12 +39,12 @@ ${gitcmd} submodule update --remote
 
 # Run Veil-Evasion Setup Script
 cd ${veilpwd}Veil-Evasion/setup/ && ./setup.sh
-cd ..
+cd ../..
 
 # Run Veil-Pillage Setup Script
-cd Veil-Pillage/ && ./update.py
+cd Veil-Pillage && ./update.py
 cd ..
 
 # Run Veil-Catapult Setup Script
-cd Veil-Catapult/ && ./setup.py
+cd Veil-Catapult && ./setup.sh
 cd config/ && ./update.py
