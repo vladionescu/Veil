@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Global Variables
-gitcmd=`which git`
-veildir=`dirname ${0}`
+gitcmd=$(which git)
+veildir=$(dirname ${0})
 
 # Title Function
 func_title(){
