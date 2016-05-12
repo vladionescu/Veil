@@ -5,7 +5,7 @@ Veil is the superproject for the stable-state releases of the tools in the [Veil
 To install all projects in the Veil Framework, get and run Install.sh.
 
 ```
-# git clone https://github.com/Veil-Framework/Veil
+# git clone https://github.com/Veil-Framework/Veil.git
 # cd Veil
 # chmod +x Install.sh
 # ./Install.sh -c
